@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar h1 {
+    margin: 0;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar li {
+    margin-right: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease; 
+}
+
+.navbar a:hover {
+    color: #ffd700; 
+}
+
+.tourist-places {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.place-container {
+    width: calc(33.33% - 20px); 
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: transform 0.3s ease; 
+}
+
+.place-container:hover {
+    transform: translateY(-5px); 
+}
+
+.place-image {
+    width: 100%;
+    height: auto;
+}
+
+.place-info {
+    padding: 10px;
+}
+
+.place-title {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.place-description {
+    font-size: 16px;
+}
